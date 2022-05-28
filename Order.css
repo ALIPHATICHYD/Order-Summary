@@ -26,14 +26,91 @@ main {
         background-color: white;
         border-radius: 24px;
         display: grid;
-        gap: 15px;
-    
+        gap: 15px;  
         grid-template-columns: 350px;
         grid-template-areas: 
-            'pic'
-            'writeup'
+            'hero'
+            'order'
         ;
 }
 
+
+
+.hero {
+    grid-area: pic;
+}
+
+.summary {
+    text-align: center;
+    grid-area: writeup;
+    padding: 15px 0;
+}
+
+.hero img{
+    width: 100%;
+    border-radius: 21px 21px 0 0;
+    display: block;
+}
+
+.summary h2 {
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.summary> p {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.summary > div {
+    background-color: hsl(225, 100%, 98%);
+    padding: 15px 5px;
+    border-radius: 12px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.order-text h4{
+    font-size: 14px;
+}
+
+.order-text p {
+    font-size: 14px;
+}
+
+.order a {
+    margin-left: 50px;
+}
+
+button {
+    width: 80%;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+
+}
+
+.payment {
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 10px 25px -10px rgb(51, 51, 51);
+    color: white;
+}
+
+.cancel {
+    background-color: rgba(240, 240, 240, 0.1);
+    color: hsl(223, 47%, 23%);
+}
 
 
