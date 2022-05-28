@@ -30,19 +30,19 @@ main {
         grid-template-columns: 350px;
         grid-template-areas: 
             'hero'
-            'order'
+            'summary'
         ;
 }
 
 
 
 .hero {
-    grid-area: pic;
+    grid-area: hero;
 }
 
 .summary {
     text-align: center;
-    grid-area: writeup;
+    grid-area: summary;
     padding: 15px 0;
 }
 
