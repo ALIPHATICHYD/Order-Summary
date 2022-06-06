@@ -86,7 +86,12 @@ main {
 
 .order a {
     margin-left: 50px;
+    text-decoration: wavy;
+    color: black;
+    font-size: large;
+    font-weight: bold;
 }
+
 
 button {
     width: 80%;
@@ -113,4 +118,20 @@ button:hover {
     color: hsl(223, 47%, 23%);
 }
 
+
+
+
+
+
+
+
+
+/*footer*/
+.attribution {
+     font-size: 11px;
+    text-align: center; 
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    }
 
